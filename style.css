@@ -1,0 +1,126 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 5rem;
+   background-color:whitesmoke;
+   font-family:'Times New Roman', Times, serif
+}
+
+section {
+   color: black;
+   background-color: white;
+   height: 30.3rem;
+   width: 37.4rem;
+   }
+
+   .head h2{
+      text-align: center;
+      line-height: 2rem;
+   }
+
+   .container{
+      background-color: rgb(151, 95, 116);
+      width: 19rem;
+      height: 26.7rem;
+      padding: 1rem;
+      line-height: 1.6rem;
+      font-size: 15px;
+      margin-left: 1rem;
+      transform: translateX(-0.6rem);
+   }
+
+   .container h3{
+      text-align: center;
+   }
+
+  .container3 {
+     transform: translateX(19.6rem);
+  }
+
+  .container3 h3 {
+   transform: translateY(-20rem);
+   background-color: rgb(151, 95, 116);
+   color: black;
+   width: 17.4rem;
+   text-align: center;
+   padding-top: 1rem;
+   font-size: 15px;
+  }
+
+  .container3 menu {
+   transform: translateY(-20rem);
+   background-color: rgb(151, 95, 116);
+   color: black;
+   font-size: 15px;
+   width: 17.4rem;
+   height: 8rem;
+   padding: 0.5rem;
+   line-height: 1.5rem;
+  }
+
+  @media screen and (max-width:650px){
+   
+   body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 2rem;
+      background-color: whitesmoke;
+   }
+
+   section {
+      color: black;
+      background-color: white;
+      height: 26.5rem;
+      width: 27.2rem;
+      }
+
+      section img {
+         width: 27.2rem;
+      }
+
+      .container{
+         background-color: rgb(151, 95, 116);
+         width: 14rem;
+         height: 23rem;
+         padding: 1rem;
+         line-height: 1.3rem;
+         font-size: 10.6px;
+         margin-left: 1rem;
+         transform: translateX(-0.7rem);
+      }
+
+      .container3 {
+         transform: translateX(14.5rem);
+      }
+    
+      .container3 h3 {
+       transform: translateY(-17rem);
+       background-color: rgb(151, 95, 116);
+       color: black;
+       width: 12.4rem;
+       text-align: center;
+       padding-top: 1rem;
+       font-size: 10.6px;
+      }
+    
+      .container3 menu {
+       transform: translateY(-17rem);
+       background-color: rgb(151, 95, 116);
+       color: black;
+       font-size: 10.6px;
+       width: 12.4rem;
+       height: 7rem;
+       line-height: 1.3rem;
+      }
+    
+  }
